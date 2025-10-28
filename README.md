@@ -38,16 +38,21 @@ https://github.com/user-attachments/assets/2b461957-50b5-4854-9a15-e6fc9ca05d85
 **Seed**: `1363812591`  
 **Prompt**: `A beautiful and powerful black lion`
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1363812591.mp4
+https://github.com/user-attachments/assets/8c84737d-9225-4784-8720-12154a6d553e
 
 ---
 
 #### Example 2 - Snow-Capped Mountains
 
+
 **Seed**: `3804031196`  
 **Prompt**: `A view from above of beautiful snow-capped mountains`
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/3804031196.mp4
+
+
+https://github.com/user-attachments/assets/c9011988-8c69-43fe-aab9-84f923fd2751
+
+
 
 ---
 
@@ -56,7 +61,11 @@ https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/3804031196.m
 **Seed**: `1397763684`  
 **Prompt**: `A tiger jumping/attacking a wild boar`
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1397763684.mp4
+
+
+https://github.com/user-attachments/assets/fa5dffdd-e2d5-4b1c-be6c-278180095672
+
+
 
 ---
 
@@ -64,111 +73,80 @@ https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1397763684.m
 
 #### Example 1 - Muay Thai Cats Battle
 
+<img width="1024" height="1024" alt="1830526882" src="https://github.com/user-attachments/assets/6bdeb80d-13c6-4db6-9859-51aac7a69599" />
+
+
 **Seed**: `1830526882`  
 **Prompt**: `the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight`
 
-<table>
-<tr>
-<td><b>Input Image</b></td>
-<td><b>Generated Video</b></td>
-</tr>
-<tr>
-<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/1830526882.png?raw=true" width="300"/></td>
-<td>
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1830526882.mp4
 
-</td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/8b11b10c-f8a0-440e-a7a4-11f72081eda8
+
+
 
 ---
 
 #### Example 2 - Boxing Cats
 
+![738317591](https://github.com/user-attachments/assets/28a8a650-fa4c-4842-b460-384c69120341)
+
+
 **Seed**: `738317591`  
 **Prompt**: `The cats from the picture are boxing each other agresivelly`
 
-<table>
-<tr>
-<td><b>Input Image</b></td>
-<td><b>Generated Video</b></td>
-</tr>
-<tr>
-<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/738317591.jpeg?raw=true" width="300"/></td>
-<td>
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/738317591.mp4
 
-</td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/f25e5941-b229-4ed9-852e-850761f7e7f5
+
+
 
 ---
 
 #### Example 3 - 3D Lion Transformation
 
+![3858595085](https://github.com/user-attachments/assets/22391711-cdcd-495d-a2f3-d76c9bf11117)
+
+
 **Seed**: `3858595085`  
 **Prompt**: `take the lion from the drawing and remove the background. turns the lion into a 3d model`
 
-<table>
-<tr>
-<td><b>Input Image</b></td>
-<td><b>Generated Video</b></td>
-</tr>
-<tr>
-<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/3858595085.jpeg?raw=true" width="300"/></td>
-<td>
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/3858595085.mp4
 
-</td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/241d6c40-2a0e-4428-a075-7d245461d226
+
+
 
 ---
 
 #### Example 4 - Skater Fall
 
+![4273030543](https://github.com/user-attachments/assets/e26d5156-e1c6-4d0a-87e8-69fa710c9503)
+
+
 **Seed**: `4273030543`  
 **Prompt**: `Make the skater in the image suffer a fall`
 
-<table>
-<tr>
-<td><b>Input Image</b></td>
-<td><b>Generated Video</b></td>
-</tr>
-<tr>
-<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/4273030543.jpeg?raw=true" width="300"/></td>
-<td>
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/4273030543.mp4
 
-</td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/b94db5e9-66c0-478f-aaa5-d9f3d19df2b6
+
+
 
 ---
 
 #### Example 5 - Cool Monkey with Sunglasses
 
+![1747446564](https://github.com/user-attachments/assets/53bad1d3-d8fe-4002-8f87-91b548ab05fb)
+
 **Seed**: `1747446564`  
 **Prompt**: `The monkey takes a cool look and then puts on sunglasses`
 
-<table>
-<tr>
-<td><b>Input Image</b></td>
-<td><b>Generated Video</b></td>
-</tr>
-<tr>
-<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/1747446564.webp?raw=true" width="300"/></td>
-<td>
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1747446564.mp4
 
-</td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/51533440-9b85-4c75-b30c-e25fdb40e658
+
+
 
 ---
 
