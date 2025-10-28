@@ -5,7 +5,7 @@
 <div align="center">
 
 ![DeepRat Banner](https://img.shields.io/badge/DeepRat-LTX%20Video-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge)
 
 **Advanced AI-powered video generation using LTX Video model**
@@ -321,11 +321,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Credits & Acknowledgments
 
