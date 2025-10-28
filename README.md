@@ -333,7 +333,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 - **Model**: [Lightricks/LTX-Video](https://huggingface.co/Lightricks/LTX-Video)
 - **Paper**: [LTX-Video: Realtime Video Latent Diffusion](https://arxiv.org/abs/2411.17465)
 - **Interface**: Built with Gradio
-- **Community**: DeepRat AI Community
+- **Developer**: DeepRat (Gonzalo Romero)
 
 ---
 
@@ -355,6 +355,12 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ---
 
-## 📮 Contact
+<div align="center">
 
-For questions, suggestions, or collaborations:
+**Made with ❤️ by the DeepRat for the Community**
+
+⭐ Star us on GitHub — it helps!
+
+[⬆ Back to Top](#-deeprat-ltx-video---ai-video-generation)
+
+</div>
