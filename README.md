@@ -1,3 +1,5 @@
+<!-- Media width estandarizada a 768px. Cambia width="768" si querés otro ancho global. -->
+
 # 🎬 DeepRat LTX Video - AI Video Generation
 
 <div align="center">
@@ -12,11 +14,14 @@
 
 </div>
 
---
+---
 
-https://github.com/user-attachments/assets/2b461957-50b5-4854-9a15-e6fc9ca05d85
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/2b461957-50b5-4854-9a15-e6fc9ca05d85"
+         controls playsinline muted loop width="768"></video>
+</div>
 
--
+---
 
 ## ✨ Features
 
@@ -34,119 +39,136 @@ https://github.com/user-attachments/assets/2b461957-50b5-4854-9a15-e6fc9ca05d85
 ### Text-to-Video (PtV)
 
 #### Example 1 - Majestic Black Lion
-
-**Seed**: `1363812591`  
-**Prompt**: `A beautiful and powerful black lion`
-
-https://github.com/user-attachments/assets/8c84737d-9225-4784-8720-12154a6d553e
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/8c84737d-9225-4784-8720-12154a6d553e"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 1363812591<br>
+      <strong>Prompt</strong>: A beautiful and powerful black lion
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 2 - Snow-Capped Mountains
-
-
-**Seed**: `3804031196`  
-**Prompt**: `A view from above of beautiful snow-capped mountains`
-
-
-
-https://github.com/user-attachments/assets/c9011988-8c69-43fe-aab9-84f923fd2751
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/c9011988-8c69-43fe-aab9-84f923fd2751"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 3804031196<br>
+      <strong>Prompt</strong>: A view from above of beautiful snow-capped mountains
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 3 - Tiger Attacking Wild Boar
-
-**Seed**: `1397763684`  
-**Prompt**: `A tiger jumping/attacking a wild boar`
-
-
-
-https://github.com/user-attachments/assets/fa5dffdd-e2d5-4b1c-be6c-278180095672
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/fa5dffdd-e2d5-4b1c-be6c-278180095672"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 1397763684<br>
+      <strong>Prompt</strong>: A tiger jumping/attacking a wild boar
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 ### Image-to-Video (ItV)
 
 #### Example 1 - Muay Thai Cats Battle
+<div align="center">
+  <img alt="1830526882" src="https://github.com/user-attachments/assets/6bdeb80d-13c6-4db6-9859-51aac7a69599" width="768" />
+</div>
 
-<img width="1024" height="1024" alt="1830526882" src="https://github.com/user-attachments/assets/6bdeb80d-13c6-4db6-9859-51aac7a69599" />
-
-
-**Seed**: `1830526882`  
-**Prompt**: `the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight`
-
-
-
-https://github.com/user-attachments/assets/8b11b10c-f8a0-440e-a7a4-11f72081eda8
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/8b11b10c-f8a0-440e-a7a4-11f72081eda8"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 1830526882<br>
+      <strong>Prompt</strong>: the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 2 - Boxing Cats
+<div align="center">
+  <img alt="738317591" src="https://github.com/user-attachments/assets/28a8a650-fa4c-4842-b460-384c69120341" width="768" />
+</div>
 
-![738317591](https://github.com/user-attachments/assets/28a8a650-fa4c-4842-b460-384c69120341)
-
-
-**Seed**: `738317591`  
-**Prompt**: `The cats from the picture are boxing each other agresivelly`
-
-
-
-https://github.com/user-attachments/assets/f25e5941-b229-4ed9-852e-850761f7e7f5
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/81318049-2061-4201-9dcb-5736462447fa"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 738317591<br>
+      <strong>Prompt</strong>: The cats from the picture are boxing each other agresivelly
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 3 - 3D Lion Transformation
+<div align="center">
+  <img alt="3858595085" src="https://github.com/user-attachments/assets/22391711-cdcd-495d-a2f3-d76c9bf11117" width="768" />
+</div>
 
-![3858595085](https://github.com/user-attachments/assets/22391711-cdcd-495d-a2f3-d76c9bf11117)
-
-
-**Seed**: `3858595085`  
-**Prompt**: `take the lion from the drawing and remove the background. turns the lion into a 3d model`
-
-
-
-https://github.com/user-attachments/assets/241d6c40-2a0e-4428-a075-7d245461d226
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/241d6c40-2a0e-4428-a075-7d245461d226"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 3858595085<br>
+      <strong>Prompt</strong>: take the lion from the drawing and remove the background. turns the lion into a 3d model
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 4 - Skater Fall
+<div align="center">
+  <img alt="4273030543" src="https://github.com/user-attachments/assets/e26d5156-e1c6-4d0a-87e8-69fa710c9503" width="768" />
+</div>
 
-![4273030543](https://github.com/user-attachments/assets/e26d5156-e1c6-4d0a-87e8-69fa710c9503)
-
-
-**Seed**: `4273030543`  
-**Prompt**: `Make the skater in the image suffer a fall`
-
-
-
-https://github.com/user-attachments/assets/b94db5e9-66c0-478f-aaa5-d9f3d19df2b6
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/b94db5e9-66c0-478f-aaa5-d9f3d19df2b6"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 4273030543<br>
+      <strong>Prompt</strong>: Make the skater in the image suffer a fall
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
 #### Example 5 - Cool Monkey with Sunglasses
+<div align="center">
+  <img alt="1747446564" src="https://github.com/user-attachments/assets/53bad1d3-d8fe-4002-8f87-91b548ab05fb" width="768" />
+</div>
 
-![1747446564](https://github.com/user-attachments/assets/53bad1d3-d8fe-4002-8f87-91b548ab05fb)
-
-**Seed**: `1747446564`  
-**Prompt**: `The monkey takes a cool look and then puts on sunglasses`
-
-
-
-https://github.com/user-attachments/assets/51533440-9b85-4c75-b30c-e25fdb40e658
-
-
+<div align="center">
+  <figure>
+    <video src="https://github.com/user-attachments/assets/51533440-9b85-4c75-b30c-e25fdb40e658"
+           controls playsinline muted loop width="768"></video>
+    <figcaption>
+      <strong>Seed</strong>: 1747446564<br>
+      <strong>Prompt</strong>: The monkey takes a cool look and then puts on sunglasses
+    </figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -165,6 +187,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
 ```
 
 ### Basic Usage
