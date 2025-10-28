@@ -10,7 +10,7 @@
 
 **Advanced AI-powered video generation using LTX Video model**
 
-[🚀 Try Demo](https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video) | [📖 Documentation](#documentation) | [🎨 Examples](#examples)
+[🚀 Try Demo]([https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized)) | [📖 Documentation](#documentation) | [🎨 Examples](#examples)
 
 </div>
 
@@ -334,7 +334,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🔗 Links
 
-- 🌐 [Hugging Face Space](https://huggingface.co/spaces/DeepRatAI/ltx-video)
+- 🌐 [Hugging Face Space]([https://huggingface.co/spaces/DeepRatAI/ltx-video](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized))
 - 📦 [Model Card](https://huggingface.co/Lightricks/LTX-Video)
 - 📖 [Original Repository](https://github.com/Lightricks/LTX-Video)
 - 📄 [Research Paper](https://arxiv.org/abs/2411.17465)
