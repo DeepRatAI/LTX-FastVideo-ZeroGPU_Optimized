@@ -27,100 +27,144 @@
 
 ## 📸 Examples
 
-### Picture-to-Video (PtV)
+### Text-to-Video (PtV)
 
-#### 1. Majestic Black Lion
-<div align="center">
-<img src="PtV/1363812591_a-beautiful-and-powerful-black-lion.jpg" width="600"/>
-</div>
+#### Example 1 - Majestic Black Lion
 
-**Prompt**: `A beautiful and powerful black lion`  
 **Seed**: `1363812591`  
-**Type**: Text-to-Video
+**Prompt**: `A beautiful and powerful black lion`
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1363812591.mp4
 
 ---
 
-#### 2. Snow-Capped Mountains
-<div align="center">
-<img src="PtV/3804031196_a-view-from-above-of-beautiful-snow-capped-mountains.jpg" width="600"/>
-</div>
+#### Example 2 - Snow-Capped Mountains
 
-**Prompt**: `A view from above of beautiful snow-capped mountains`  
 **Seed**: `3804031196`  
-**Type**: Text-to-Video
+**Prompt**: `A view from above of beautiful snow-capped mountains`
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/3804031196.mp4
 
 ---
 
-#### 3. Tiger vs Wild Boar
-<div align="center">
-<img src="PtV/1397763684_a-tiger-jumping-attacking-a-wild-boar.jpg" width="600"/>
-</div>
+#### Example 3 - Tiger Attacking Wild Boar
 
-**Prompt**: `A tiger jumping/attacking a wild boar`  
 **Seed**: `1397763684`  
-**Type**: Text-to-Video
+**Prompt**: `A tiger jumping/attacking a wild boar`
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1397763684.mp4
 
 ---
 
 ### Image-to-Video (ItV)
 
-#### 1. Muay Thai Cats Battle
-<div align="center">
-<img src="ItV/1830526882_the-two-cats-in-the-image-are-fighting-each-other-with-kicks-and-muay-thai-fists-in-a-very-active-and-dizzying-way-like-an-action-fight.jpg" width="600"/>
-</div>
+#### Example 1 - Muay Thai Cats Battle
 
-**Prompt**: `the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight`  
 **Seed**: `1830526882`  
-**Type**: Image-to-Video  
-**Conditioning**: Full image conditioning
+**Prompt**: `the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight`
+
+<table>
+<tr>
+<td><b>Input Image</b></td>
+<td><b>Generated Video</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/1830526882.png?raw=true" width="300"/></td>
+<td>
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1830526882.mp4
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 2. Boxing Cats
-<div align="center">
-<img src="ItV/738317591_the-cats-from-the-picture-are-boxing-each-other-agresivelly.jpg" width="600"/>
-</div>
+#### Example 2 - Boxing Cats
 
-**Prompt**: `The cats from the picture are boxing each other agresivelly`  
 **Seed**: `738317591`  
-**Type**: Image-to-Video  
-**Conditioning**: Full image conditioning
+**Prompt**: `The cats from the picture are boxing each other agresivelly`
+
+<table>
+<tr>
+<td><b>Input Image</b></td>
+<td><b>Generated Video</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/738317591.jpeg?raw=true" width="300"/></td>
+<td>
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/738317591.mp4
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 3. 3D Lion Transformation
-<div align="center">
-<img src="ItV/3858595085_take-the-lion-from-the-drawing-and-remove-the-background-turns-the-lion-into-a-3d-model.jpg" width="600"/>
-</div>
+#### Example 3 - 3D Lion Transformation
 
-**Prompt**: `take the lion from the drawing and remove the background. turns the lion into a 3d model`  
 **Seed**: `3858595085`  
-**Type**: Image-to-Video  
-**Note**: 2D to 3D transformation
+**Prompt**: `take the lion from the drawing and remove the background. turns the lion into a 3d model`
+
+<table>
+<tr>
+<td><b>Input Image</b></td>
+<td><b>Generated Video</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/3858595085.jpeg?raw=true" width="300"/></td>
+<td>
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/3858595085.mp4
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 4. Skater Fall
-<div align="center">
-<img src="ItV/4273030543_make-the-skater-in-the-image-suffer-a-fall.jpg" width="600"/>
-</div>
+#### Example 4 - Skater Fall
 
-**Prompt**: `Make the skater in the image suffer a fall`  
 **Seed**: `4273030543`  
-**Type**: Image-to-Video  
-**Action**: Dynamic motion from static photo
+**Prompt**: `Make the skater in the image suffer a fall`
+
+<table>
+<tr>
+<td><b>Input Image</b></td>
+<td><b>Generated Video</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/4273030543.jpeg?raw=true" width="300"/></td>
+<td>
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/4273030543.mp4
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### 5. Cool Monkey with Sunglasses
-<div align="center">
-<img src="ItV/1747446564_the-monkey-takes-a-cool-look-and-then-puts-on-sunglasses.jpg" width="600"/>
-</div>
+#### Example 5 - Cool Monkey with Sunglasses
 
-**Prompt**: `The monkey takes a cool look and then puts on sunglasses`  
 **Seed**: `1747446564`  
-**Type**: Image-to-Video  
-**Action**: Object interaction animation
+**Prompt**: `The monkey takes a cool look and then puts on sunglasses`
+
+<table>
+<tr>
+<td><b>Input Image</b></td>
+<td><b>Generated Video</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/blob/main/examples/ItV/1747446564.webp?raw=true" width="300"/></td>
+<td>
+
+https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1747446564.mp4
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -130,8 +174,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/deeprat-ltx-video.git
-cd deeprat-ltx-video
+git clone https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized.git
+cd LTX-FastVideo-ZeroGPU_Optimized
 
 # Create virtual environment
 python -m venv venv
@@ -144,6 +188,7 @@ pip install -r requirements.txt
 ### Basic Usage
 
 #### Text-to-Video
+
 ```bash
 python inference.py \
   --prompt "A beautiful sunset over the ocean" \
@@ -154,6 +199,7 @@ python inference.py \
 ```
 
 #### Image-to-Video
+
 ```bash
 python inference.py \
   --prompt "The person in the image starts walking" \
@@ -170,15 +216,15 @@ python inference.py \
 
 ## 🎛️ Parameters Guide
 
-| Parameter | Description | Default | Range |
-|-----------|-------------|---------|-------|
-| `--height` | Output video height | 704 | 256-720 |
-| `--width` | Output video width | 1216 | 256-1280 |
-| `--num_frames` | Number of frames | 121 | 1-257 |
-| `--frame_rate` | FPS of output | 30 | 1-60 |
-| `--seed` | Random seed | 171198 | Any integer |
-| `--guidance_scale` | Prompt adherence | 3.0 | 1.0-20.0 |
-| `--num_inference_steps` | Quality steps | 50 | 1-100 |
+| Parameter               | Description         | Default | Range       |
+| ----------------------- | ------------------- | ------- | ----------- |
+| `--height`              | Output video height | 704     | 256-720     |
+| `--width`               | Output video width  | 1216    | 256-1280    |
+| `--num_frames`          | Number of frames    | 121     | 1-257       |
+| `--frame_rate`          | FPS of output       | 30      | 1-60        |
+| `--seed`                | Random seed         | 171198  | Any integer |
+| `--guidance_scale`      | Prompt adherence    | 3.0     | 1.0-20.0    |
+| `--num_inference_steps` | Quality steps       | 50      | 1-100       |
 
 ### Conditioning Parameters
 
@@ -191,6 +237,7 @@ python inference.py \
 ## 📊 Technical Details
 
 ### Model Architecture
+
 - **Base Model**: LTX Video (Lightricks)
 - **Precision**: Mixed (BF16/FP32)
 - **VAE**: Causal Video Autoencoder
@@ -198,33 +245,38 @@ python inference.py \
 - **Scheduler**: Rectified Flow
 
 ### System Requirements
+
 - **GPU**: NVIDIA GPU with 16GB+ VRAM (recommended)
 - **RAM**: 32GB+ recommended
 - **Storage**: 50GB+ for models
 - **Python**: 3.10+
 
 ### Supported Resolutions
+
 - **Width**: 256px - 1280px (divisible by 32)
 - **Height**: 256px - 720px (divisible by 32)
-- **Frames**: 1 - 257 (formula: N * 8 + 1)
+- **Frames**: 1 - 257 (formula: N \* 8 + 1)
 
 ---
 
 ## 💡 Tips for Best Results
 
 ### Text-to-Video
+
 - ✅ Be specific about motion, lighting, and camera movement
 - ✅ Use descriptive language: "slowly", "dramatic", "cinematic"
 - ✅ Start with lower resolutions for faster iteration
 - ❌ Avoid overly complex or contradictory prompts
 
 ### Image-to-Video
+
 - ✅ Use conditioning strength 0.7-0.9 for natural motion
 - ✅ Clear, high-quality input images work best
 - ✅ Describe the desired motion explicitly
 - ❌ Don't use very low conditioning strength (<0.5)
 
 ### General Tips
+
 - 🎯 Use negative prompts to avoid unwanted elements
 - 🎯 Adjust guidance scale: lower (2-4) for creativity, higher (5-8) for accuracy
 - 🎯 More inference steps = better quality but slower
@@ -232,29 +284,10 @@ python inference.py \
 
 ---
 
-## 🔧 Advanced Configuration
-
-### Config Files
-The pipeline uses YAML configuration files located in `configs/`:
-
-```yaml
-# Example config
-checkpoint_path: "ltxv-13b-0.9.7-dev.safetensors"
-precision: "bfloat16"
-sampler: "LinearQuadratic"
-guidance_scale: 3.0
-num_inference_steps: 50
-```
-
-### Custom Models
-Place custom models in the `MODEL_DIR` and update config accordingly.
-
----
-
 ## 📁 Project Structure
 
 ```
-deeprat-ltx-video/
+LTX-FastVideo-ZeroGPU_Optimized/
 ├── inference.py              # Main inference script
 ├── app.py                    # Gradio web interface
 ├── configs/                  # Configuration files
@@ -263,7 +296,7 @@ deeprat-ltx-video/
 │   ├── models/
 │   ├── pipelines/
 │   └── schedulers/
-├── Assets/                  # Example outputs
+├── examples/                # Example outputs
 │   ├── PtV/                # Picture-to-Video examples
 │   └── ItV/                # Image-to-Video examples
 └── requirements.txt         # Python dependencies
@@ -281,6 +314,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+---
+
+## 📄 License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -296,10 +334,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🔗 Links
 
-- 🌐 [Hugging Face Space](https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video)
+- 🌐 [Hugging Face Space](https://huggingface.co/spaces/DeepRatAI/ltx-video)
 - 📦 [Model Card](https://huggingface.co/Lightricks/LTX-Video)
 - 📖 [Original Repository](https://github.com/Lightricks/LTX-Video)
-
+- 📄 [Research Paper](https://arxiv.org/abs/2411.17465)
 
 ---
 
@@ -315,22 +353,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📮 Contact
 
 For questions, suggestions, or collaborations:
-
-- GitHub Issues: [Create an issue](https://github.com/YOUR_USERNAME/deeprat-ltx-video/issues)
-- Email: your.email@example.com
-- Twitter: [@YourHandle](https://twitter.com/YourHandle)
-
----
-
-<div align="center">
-
-**Made with ❤️ by the DeepRat Community**
-
-⭐ Star us on GitHub — it helps!
-
-[⬆ Back to Top](#-deeprat-ltx-video---ai-video-generation)
-
-</div>
-[🚀 Try the Space](https://huggingface.co/spaces/DeepRatAI/ltx-video-zerogpu-optimized) • [📖 Documentation](docs/) • [🐛 Report Bug](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/issues) • [✨ Request Feature](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/issues)
-
-</div>
