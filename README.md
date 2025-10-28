@@ -1,5 +1,3 @@
-<!-- Media width estandarizada a 768px. Cambia width="768" si querés otro ancho global. -->
-
 # 🎬 DeepRat LTX Video - AI Video Generation
 
 <div align="center">
@@ -10,7 +8,7 @@
 
 **Advanced AI-powered video generation using LTX Video model**
 
-[🚀 Try Demo]([https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized)) | [📖 Documentation](#documentation) | [🎨 Examples](#examples)
+[🚀 Try Demo](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized) | [📖 Documentation](#documentation) | [🎨 Examples](#examples)
 
 </div>
 
@@ -25,12 +23,12 @@
 
 ## ✨ Features
 
-- 🎬 **Text-to-Video**: Generate videos from text descriptions
-- 🖼️ **Image-to-Video**: Animate static images with AI
-- 🎞️ **Video-to-Video**: Transform and enhance existing videos
-- 🎯 **Multi-Conditioning**: Apply multiple conditions at specific frames
-- ⚡ **High Performance**: Optimized for CUDA with CPU fallback
-- 🎨 **Flexible Control**: Fine-tune every aspect of generation
+* 🎬 **Text-to-Video**: Generate videos from text descriptions
+* 🖼️ **Image-to-Video**: Animate static images with AI
+* 🎞️ **Video-to-Video**: Transform and enhance existing videos
+* 🎯 **Multi-Conditioning**: Apply multiple conditions at specific frames
+* ⚡ **High Performance**: Optimized for CUDA with CPU fallback
+* 🎨 **Flexible Control**: Fine-tune every aspect of generation
 
 ---
 
@@ -38,137 +36,23 @@
 
 ### Text-to-Video (PtV)
 
-#### Example 1 - Majestic Black Lion
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/8c84737d-9225-4784-8720-12154a6d553e"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 1363812591<br>
-      <strong>Prompt</strong>: A beautiful and powerful black lion
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 2 - Snow-Capped Mountains
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/c9011988-8c69-43fe-aab9-84f923fd2751"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 3804031196<br>
-      <strong>Prompt</strong>: A view from above of beautiful snow-capped mountains
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 3 - Tiger Attacking Wild Boar
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/fa5dffdd-e2d5-4b1c-be6c-278180095672"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 1397763684<br>
-      <strong>Prompt</strong>: A tiger jumping/attacking a wild boar
-    </figcaption>
-  </figure>
-</div>
+| Entrada                                                                                                                                                               | Salida                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <div> <strong>Example 1 — Majestic Black Lion</strong><br><em>Seed:</em> 1363812591<br><em>Prompt:</em> A beautiful and powerful black lion </div>                    | <div align="center"><video src="https://github.com/user-attachments/assets/8c84737d-9225-4784-8720-12154a6d553e" controls playsinline muted loop width="384"></video></div> |
+| <div> <strong>Example 2 — Snow-Capped Mountains</strong><br><em>Seed:</em> 3804031196<br><em>Prompt:</em> A view from above of beautiful snow-capped mountains </div> | <div align="center"><video src="https://github.com/user-attachments/assets/c9011988-8c69-43fe-aab9-84f923fd2751" controls playsinline muted loop width="384"></video></div> |
+| <div> <strong>Example 3 — Tiger Attacking Wild Boar</strong><br><em>Seed:</em> 1397763684<br><em>Prompt:</em> A tiger jumping/attacking a wild boar </div>            | <div align="center"><video src="https://github.com/user-attachments/assets/fa5dffdd-e2d5-4b1c-be6c-278180095672" controls playsinline muted loop width="384"></video></div> |
 
 ---
 
 ### Image-to-Video (ItV)
 
-#### Example 1 - Muay Thai Cats Battle
-<div align="center">
-  <img alt="1830526882" src="https://github.com/user-attachments/assets/6bdeb80d-13c6-4db6-9859-51aac7a69599" width="768" />
-</div>
-
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/8b11b10c-f8a0-440e-a7a4-11f72081eda8"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 1830526882<br>
-      <strong>Prompt</strong>: the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 2 - Boxing Cats
-<div align="center">
-  <img alt="738317591" src="https://github.com/user-attachments/assets/28a8a650-fa4c-4842-b460-384c69120341" width="768" />
-</div>
-
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/81318049-2061-4201-9dcb-5736462447fa"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 738317591<br>
-      <strong>Prompt</strong>: The cats from the picture are boxing each other agresivelly
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 3 - 3D Lion Transformation
-<div align="center">
-  <img alt="3858595085" src="https://github.com/user-attachments/assets/22391711-cdcd-495d-a2f3-d76c9bf11117" width="768" />
-</div>
-
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/241d6c40-2a0e-4428-a075-7d245461d226"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 3858595085<br>
-      <strong>Prompt</strong>: take the lion from the drawing and remove the background. turns the lion into a 3d model
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 4 - Skater Fall
-<div align="center">
-  <img alt="4273030543" src="https://github.com/user-attachments/assets/e26d5156-e1c6-4d0a-87e8-69fa710c9503" width="768" />
-</div>
-
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/b94db5e9-66c0-478f-aaa5-d9f3d19df2b6"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 4273030543<br>
-      <strong>Prompt</strong>: Make the skater in the image suffer a fall
-    </figcaption>
-  </figure>
-</div>
-
----
-
-#### Example 5 - Cool Monkey with Sunglasses
-<div align="center">
-  <img alt="1747446564" src="https://github.com/user-attachments/assets/53bad1d3-d8fe-4002-8f87-91b548ab05fb" width="768" />
-</div>
-
-<div align="center">
-  <figure>
-    <video src="https://github.com/user-attachments/assets/51533440-9b85-4c75-b30c-e25fdb40e658"
-           controls playsinline muted loop width="768"></video>
-    <figcaption>
-      <strong>Seed</strong>: 1747446564<br>
-      <strong>Prompt</strong>: The monkey takes a cool look and then puts on sunglasses
-    </figcaption>
-  </figure>
-</div>
+| Entrada (Imagen)                                                                                                                                                                                                                                                                                                                                                    | Salida (Video)                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <div align="center"><img alt="1830526882" src="https://github.com/user-attachments/assets/6bdeb80d-13c6-4db6-9859-51aac7a69599" width="384" /><br><sub><em>Seed:</em> 1830526882</sub><br><sub><em>Prompt:</em> the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight</sub></div> | <div align="center"><video src="https://github.com/user-attachments/assets/8b11b10c-f8a0-440e-a7a4-11f72081eda8" controls playsinline muted loop width="384"></video></div> |
+| <div align="center"><img alt="738317591" src="https://github.com/user-attachments/assets/28a8a650-fa4c-4842-b460-384c69120341" width="384" /><br><sub><em>Seed:</em> 738317591</sub><br><sub><em>Prompt:</em> The cats from the picture are boxing each other agresivelly</sub></div>                                                                               | <div align="center"><video src="https://github.com/user-attachments/assets/81318049-2061-4201-9dcb-5736462447fa" controls playsinline muted loop width="384"></video></div> |
+| <div align="center"><img alt="3858595085" src="https://github.com/user-attachments/assets/22391711-cdcd-495d-a2f3-d76c9bf11117" width="384" /><br><sub><em>Seed:</em> 3858595085</sub><br><sub><em>Prompt:</em> take the lion from the drawing and remove the background. turns the lion into a 3d model</sub></div>                                                | <div align="center"><video src="https://github.com/user-attachments/assets/241d6c40-2a0e-4428-a075-7d245461d226" controls playsinline muted loop width="384"></video></div> |
+| <div align="center"><img alt="4273030543" src="https://github.com/user-attachments/assets/e26d5156-e1c6-4d0a-87e8-69fa710c9503" width="384" /><br><sub><em>Seed:</em> 4273030543</sub><br><sub><em>Prompt:</em> Make the skater in the image suffer a fall</sub></div>                                                                                              | <div align="center"><video src="https://github.com/user-attachments/assets/b94db5e9-66c0-478f-aaa5-d9f3d19df2b6" controls playsinline muted loop width="384"></video></div> |
+| <div align="center"><img alt="1747446564" src="https://github.com/user-attachments/assets/53bad1d3-d8fe-4002-8f87-91b548ab05fb" width="384" /><br><sub><em>Seed:</em> 1747446564</sub><br><sub><em>Prompt:</em> The monkey takes a cool look and then puts on sunglasses</sub></div>                                                                                | <div align="center"><video src="https://github.com/user-attachments/assets/51533440-9b85-4c75-b30c-e25fdb40e658" controls playsinline muted loop width="384"></video></div> |
 
 ---
 
@@ -187,7 +71,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
 ```
 
 ### Basic Usage
@@ -233,9 +116,9 @@ python inference.py \
 
 ### Conditioning Parameters
 
-- `--conditioning_media_paths`: Path(s) to conditioning images/videos
-- `--conditioning_strengths`: Strength of each condition (0.0-1.0)
-- `--conditioning_start_frames`: Frame index where condition starts
+* `--conditioning_media_paths`: Path(s) to conditioning images/videos
+* `--conditioning_strengths`: Strength of each condition (0.0-1.0)
+* `--conditioning_start_frames`: Frame index where condition starts
 
 ---
 
@@ -243,24 +126,24 @@ python inference.py \
 
 ### Model Architecture
 
-- **Base Model**: LTX Video (Lightricks)
-- **Precision**: Mixed (BF16/FP32)
-- **VAE**: Causal Video Autoencoder
-- **Transformer**: 3D Transformer with symmetric patchifier
-- **Scheduler**: Rectified Flow
+* **Base Model**: LTX Video (Lightricks)
+* **Precision**: Mixed (BF16/FP32)
+* **VAE**: Causal Video Autoencoder
+* **Transformer**: 3D Transformer with symmetric patchifier
+* **Scheduler**: Rectified Flow
 
 ### System Requirements
 
-- **GPU**: NVIDIA GPU with 16GB+ VRAM (recommended)
-- **RAM**: 32GB+ recommended
-- **Storage**: 50GB+ for models
-- **Python**: 3.10+
+* **GPU**: NVIDIA GPU with 16GB+ VRAM (recommended)
+* **RAM**: 32GB+ recommended
+* **Storage**: 50GB+ for models
+* **Python**: 3.10+
 
 ### Supported Resolutions
 
-- **Width**: 256px - 1280px (divisible by 32)
-- **Height**: 256px - 720px (divisible by 32)
-- **Frames**: 1 - 257 (formula: N \* 8 + 1)
+* **Width**: 256px - 1280px (divisible by 32)
+* **Height**: 256px - 720px (divisible by 32)
+* **Frames**: 1 - 257 (formula: N * 8 + 1)
 
 ---
 
@@ -268,24 +151,24 @@ python inference.py \
 
 ### Text-to-Video
 
-- ✅ Be specific about motion, lighting, and camera movement
-- ✅ Use descriptive language: "slowly", "dramatic", "cinematic"
-- ✅ Start with lower resolutions for faster iteration
-- ❌ Avoid overly complex or contradictory prompts
+* Be specific about motion, lighting, and camera movement
+* Use descriptive language: “slowly”, “dramatic”, “cinematic”
+* Start with lower resolutions for faster iteration
+* Avoid overly complex or contradictory prompts
 
 ### Image-to-Video
 
-- ✅ Use conditioning strength 0.7-0.9 for natural motion
-- ✅ Clear, high-quality input images work best
-- ✅ Describe the desired motion explicitly
-- ❌ Don't use very low conditioning strength (<0.5)
+* Use conditioning strength 0.7–0.9 for natural motion
+* Clear, high-quality input images work best
+* Describe the desired motion explicitly
+* Avoid very low conditioning strength (<0.5)
 
 ### General Tips
 
-- 🎯 Use negative prompts to avoid unwanted elements
-- 🎯 Adjust guidance scale: lower (2-4) for creativity, higher (5-8) for accuracy
-- 🎯 More inference steps = better quality but slower
-- 🎯 Use consistent seeds to reproduce results
+* Use negative prompts to avoid unwanted elements
+* Adjust guidance scale: lower (2–4) for creativity, higher (5–8) for accuracy
+* More inference steps = better quality but slower
+* Use consistent seeds to reproduce results
 
 ---
 
@@ -321,36 +204,39 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 🙏 Credits & Acknowledgments
 
-- **LTX Video**: [Lightricks](https://github.com/Lightricks/LTX-Video)
-- **Model**: [Lightricks/LTX-Video](https://huggingface.co/Lightricks/LTX-Video)
-- **Paper**: [LTX-Video: Realtime Video Latent Diffusion](https://arxiv.org/abs/2411.17465)
-- **Interface**: Built with Gradio
-- **Developer**: DeepRat (Gonzalo Romero)
+* **LTX Video**: [Lightricks](https://github.com/Lightricks/LTX-Video)
+* **Model**: [Lightricks/LTX-Video](https://huggingface.co/Lightricks/LTX-Video)
+* **Paper**: [LTX-Video: Realtime Video Latent Diffusion](https://arxiv.org/abs/2411.17465)
+* **Interface**: Built with Gradio
+* **Maintainer**: DeepRat (solo)
 
 ---
 
 ## 🔗 Links
 
-- 🌐 [Hugging Face Space]([https://huggingface.co/spaces/DeepRatAI/ltx-video](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized))
-- 📦 [Model Card](https://huggingface.co/Lightricks/LTX-Video)
-- 📖 [Original Repository](https://github.com/Lightricks/LTX-Video)
-- 📄 [Research Paper](https://arxiv.org/abs/2411.17465)
+* 🌐 [Hugging Face Space](https://huggingface.co/spaces/DeepRat/LTX-Video-ZeroGPU-Optimized)
+* 📦 [Model Card](https://huggingface.co/Lightricks/LTX-Video)
+* 📖 [Original Repository](https://github.com/Lightricks/LTX-Video)
+* 📄 [Research Paper](https://arxiv.org/abs/2411.17465)
 
 ---
 
 ## 🐛 Known Issues & Limitations
 
-- Very high resolutions (>1280x720) require significant VRAM
-- CPU inference is extremely slow (GPU strongly recommended)
-- Long prompts (>77 tokens) may be truncated
-- Some complex motions may not be fully captured
+* Very high resolutions (>1280×720) require significant VRAM
+* CPU inference is extremely slow (GPU strongly recommended)
+* Long prompts (>77 tokens) may be truncated
+* Some complex motions may not be fully captured
 
 ---
-
-<div align="center">
 
 **Made with ❤️ by the DeepRat for the Community**
 
