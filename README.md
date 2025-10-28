@@ -1,288 +1,137 @@
-# 🎬 LTX FastVideo - ZeroGPU Optimized
+# 🎬 DeepRat LTX Video - AI Video Generation
 
 <div align="center">
 
-### Advanced Text-to-Video & Image-to-Video Generation with Intelligent ZeroGPU Configuration
+![DeepRat Banner](https://img.shields.io/badge/DeepRat-LTX%20Video-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge)
 
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/DeepRatAI/ltx-video-zerogpu-optimized)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-Gradio-orange.svg)](https://gradio.app/)
+**Advanced AI-powered video generation using LTX Video model**
+
+[🚀 Try Demo](https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video) | [📖 Documentation](#documentation) | [🎨 Examples](#examples)
 
 </div>
 
 ---
 
-## 🎥 Example Generation
+## ✨ Features
 
-https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/assets/1830526882.mp4
-
-*"The two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight"* - Generated in Image-to-Video mode
-
----
-
-## 🚀 Try it Now
-
-**[→ Launch the Space on Hugging Face](https://huggingface.co/spaces/DeepRatAI/ltx-video-zerogpu-optimized)**
+- 🎬 **Text-to-Video**: Generate videos from text descriptions
+- 🖼️ **Image-to-Video**: Animate static images with AI
+- 🎞️ **Video-to-Video**: Transform and enhance existing videos
+- 🎯 **Multi-Conditioning**: Apply multiple conditions at specific frames
+- ⚡ **High Performance**: Optimized for CUDA with CPU fallback
+- 🎨 **Flexible Control**: Fine-tune every aspect of generation
 
 ---
 
-## 📖 About This Project
+## 📸 Examples
 
-This project is an **optimized implementation** of the Lightricks LTX Video model, specifically calibrated for **ZeroGPU environments** on Hugging Face Spaces. Unlike the original Space, this version incorporates intelligent parameter management that **guarantees successful generation** of videos up to **10 seconds** without ZeroGPU timeout errors.
+### Picture-to-Video (PtV)
 
-The implementation addresses the inherent challenges of running large video generation models on shared GPU infrastructure by introducing **ZeroGPU Smart Configuration** - an automatic calibration system that balances video duration, resolution, and computational requirements to stay within hardware limits.
+#### 1. Majestic Black Lion
+<div align="center">
+<img src="PtV/1363812591_a-beautiful-and-powerful-black-lion.jpg" width="600"/>
+</div>
 
-Additionally, this Space features a **completely redesigned UI** with a modern dark purple/neon pink aesthetic, **explicit slow-motion control** (addressing the model's default bias toward slow-motion), and comprehensive documentation for both casual users and developers.
-
-### 🔧 Technical Overview
-
-| Component | Details |
-|-----------|---------|
-| **Base Model** | LTX Video 0.9.8 13B Distilled (Lightricks) |
-| **Framework** | Gradio 4.44.0 + Diffusers |
-| **GPU Backend** | ZeroGPU (Hugging Face H200 70GB VRAM) |
-| **Precision** | Mixed precision (BF16) |
-| **Max Resolution** | 1280×720 (dynamically adjusted) |
-| **Max Duration** | 10 seconds (257 frames @ 30 FPS) |
-| **Inference Time** | 45-120 seconds (depending on configuration) |
-| **Architecture** | Transformer3D + Causal VAE + T5 Text Encoder |
+**Prompt**: `A beautiful and powerful black lion`  
+**Seed**: `1363812591`  
+**Type**: Text-to-Video
 
 ---
 
-## ✨ Key Improvements & Advantages
+#### 2. Snow-Capped Mountains
+<div align="center">
+<img src="PtV/3804031196_a-view-from-above-of-beautiful-snow-capped-mountains.jpg" width="600"/>
+</div>
 
-### 🎯 Why This Space vs. The Official One?
-
-| Feature | Official Space | **This Space** |
-|---------|----------------|----------------|
-| **ZeroGPU Timeout Protection** | ❌ Frequent timeouts on 7-10s videos | ✅ **Guaranteed completion** up to 10s |
-| **Smart Configuration** | ❌ Manual parameter tuning required | ✅ **One-click optimization** (6 presets) |
-| **Slow Motion Control** | ❌ Model bias, no explicit toggle | ✅ **Explicit on/off control** |
-| **Resolution Auto-Adjustment** | ❌ User must know optimal settings | ✅ **Automatic calibration** per duration |
-| **UI Design** | ⚪ Standard Gradio theme | ✅ **Custom dark purple/neon theme** |
-| **Error Prevention** | ❌ Fails silently on bad configs | ✅ **Pre-validated configurations** |
-| **Documentation** | ⚪ Basic usage instructions | ✅ **Comprehensive docs + GitHub repo** |
-
-### 🔥 Core Innovations
-
-1. **⚡ ZeroGPU Smart Configuration System**
-   - Automatically calculates optimal resolution based on target duration
-   - Prevents OOM errors by staying within 70GB VRAM limit
-   - 6 pre-calibrated presets (2s to 10s)
-   - Dynamic multi-scale toggle (disabled for long videos)
-
-2. **🎬 Explicit Slow Motion Control**
-   - Checkbox to enable/disable slow-motion explicitly
-   - **Default: Disabled** (normal speed) - addresses model's slow-mo bias
-   - Adds appropriate terms to prompt/negative prompt
-   - ~80-90% effectiveness in controlling motion speed
-
-3. **📐 Intelligent Parameter Calibration**
-   - Resolution/frame trade-offs pre-calculated
-   - VRAM usage estimation per configuration
-   - Safe defaults that always work
-   - Advanced users can still manual-tune
-
-4. **🎨 Modern UI Redesign**
-   - Dark purple (#2C1B47) with neon pink/purple accents
-   - Retro-style header with glow effects
-   - Organized accordion sections
-   - Info tooltips and usage tips
+**Prompt**: `A view from above of beautiful snow-capped mountains`  
+**Seed**: `3804031196`  
+**Type**: Text-to-Video
 
 ---
 
-## 📊 Generation Examples
+#### 3. Tiger vs Wild Boar
+<div align="center">
+<img src="PtV/1397763684_a-tiger-jumping-attacking-a-wild-boar.jpg" width="600"/>
+</div>
 
-### 🖼️ Image-to-Video Results
-
-<table>
-  <thead>
-    <tr>
-      <th>Input Image</th>
-      <th>Prompt</th>
-      <th>Output Video</th>
-      <th>Seed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/1830526882.png" width="200" alt="Input cats fighting"/></td>
-      <td><em>"The two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/1830526882.mp4" width="320" controls></video>
-      </td>
-      <td><code>1830526882</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/1747446564.webp" width="200" alt="Input dog"/></td>
-      <td><em>"a close shot of a dog running from left side to right side of the screen. Camera is tracking the dog"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/1747446564.mp4" width="320" controls></video>
-      </td>
-      <td><code>1747446564</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/3858595085.jpeg" width="200" alt="Input temple"/></td>
-      <td><em>"Close up first person shot. The woman in the image dressed in traditional korean clothing walk in the temple"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/3858595085.mp4" width="320" controls></video>
-      </td>
-      <td><code>3858595085</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/4273030543.jpeg" width="200" alt="Input snowy owl"/></td>
-      <td><em>"the snowy owl in the image turns around and stares at you with its big bright eyes while the wind is blowing its feathers"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/4273030543.mp4" width="320" controls></video>
-      </td>
-      <td><code>4273030543</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/738317591.jpeg" width="200" alt="Input waterfall"/></td>
-      <td><em>"Close up first person shot. A monk in orange robe walk in slow motion at the front of a temple. Camera is tracking the movement"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/ItV/738317591.mp4" width="320" controls></video>
-      </td>
-      <td><code>738317591</code></td>
-    </tr>
-  </tbody>
-</table>
-
-### 🎨 Prompt-to-Video Results
-
-<table>
-  <thead>
-    <tr>
-      <th>Prompt</th>
-      <th>Output Video</th>
-      <th>Seed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>"Close up first person shot. Yuki running through bamboo forest, wearing a yukata"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/PtV/1363812591.mp4" width="400" controls></video>
-      </td>
-      <td><code>1363812591</code></td>
-    </tr>
-    <tr>
-      <td><em>"Close up first person shot. A pretty woman smiling and dancing wearing a traditional red white and green dress of mexico, camera is tracking the movement"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/PtV/1397763684.mp4" width="400" controls></video>
-      </td>
-      <td><code>1397763684</code></td>
-    </tr>
-    <tr>
-      <td><em>"a close shot of a dog running at night in a street at the city. Camera is tracking the dog"</em></td>
-      <td>
-        <video src="https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/raw/main/examples/PtV/3804031196.mp4" width="400" controls></video>
-      </td>
-      <td><code>3804031196</code></td>
-    </tr>
-  </tbody>
-</table>
+**Prompt**: `A tiger jumping/attacking a wild boar`  
+**Seed**: `1397763684`  
+**Type**: Text-to-Video
 
 ---
 
-## 🧠 How ZeroGPU Smart Configuration Works
+### Image-to-Video (ItV)
 
-The system uses a **multi-factor optimization algorithm** to balance three competing constraints:
+#### 1. Muay Thai Cats Battle
+<div align="center">
+<img src="ItV/1830526882_the-two-cats-in-the-image-are-fighting-each-other-with-kicks-and-muay-thai-fists-in-a-very-active-and-dizzying-way-like-an-action-fight.jpg" width="600"/>
+</div>
 
-1. **Video Duration** (user's primary goal)
-2. **Visual Quality** (resolution, multi-scale rendering)
-3. **VRAM Budget** (70GB hard limit on ZeroGPU H200)
-
-### Calibration Matrix
-
-| Duration | Resolution | Frames | Multi-Scale | Est. VRAM | Success Rate |
-|----------|-----------|--------|-------------|-----------|--------------|
-| 2.0s | 704×960 | 60 | ✅ Enabled | ~42 GB | 100% |
-| 3.0s | 640×832 | 90 | ✅ Enabled | ~48 GB | 100% |
-| 4.0s | 576×768 | 120 | ❌ Disabled | ~51 GB | 100% |
-| 5.0s | 480×640 | 150 | ❌ Disabled | ~47 GB | 100% |
-| 7.0s | 416×544 | 189 | ❌ Disabled | ~52 GB | 98% |
-| 10.0s | 384×512 | 257 | ❌ Disabled | ~51 GB | 95% |
-
-*Success rates measured over 100+ generations each.*
-
-### Algorithm Overview
-
-The smart configuration system:
-1. Calculates required frames based on target duration (duration × 30 FPS)
-2. Estimates VRAM usage using empirical formula: `frames × resolution_pixels × 0.0003`
-3. Applies safety margin (10GB buffer below 70GB limit)
-4. Progressively reduces resolution if VRAM exceeds threshold
-5. Disables multi-scale rendering for videos >4.5 seconds
-6. Returns optimized parameters guaranteed to complete
+**Prompt**: `the two cats in the image are fighting each other with kicks and Muay Thai fists in a very active and dizzying way like an action fight`  
+**Seed**: `1830526882`  
+**Type**: Image-to-Video  
+**Conditioning**: Full image conditioning
 
 ---
 
-## 🎓 Usage Tips
+#### 2. Boxing Cats
+<div align="center">
+<img src="ItV/738317591_the-cats-from-the-picture-are-boxing-each-other-agresivelly.jpg" width="600"/>
+</div>
 
-### For Best Results
-
-1. **Prompt Engineering**
-   - Be specific about motion, lighting, and style
-   - Mention camera movement explicitly ("camera pans left", "zoom in", "tracking shot")
-   - Use temporal descriptors ("gradually", "suddenly", "slowly")
-   - Include details about subject, action, environment, and mood
-   
-2. **ZeroGPU Smart Configuration**
-   - **Always enable** for videos >3 seconds
-   - Trust the automatic adjustments
-   - For max quality: choose 2-3s duration
-   - For max length: choose 8-10s duration
-   - Check the recommended resolution preview before generating
-
-3. **Slow Motion Control**
-   - **Unchecked (default)**: Normal/real-time speed motion
-   - **Checked**: Cinematic slow-motion effect
-   - If result is still slow with unchecked, try reducing guidance scale to 3-4
-   - The model has inherent slow-mo bias; control works ~80-90% of the time
-
-4. **Conditioning Images (Image-to-Video)**
-   - Use high-quality, well-lit images with clear subjects
-   - Conditioning strength 0.7-0.9 works best for most cases
-   - Higher strength (0.9-1.0) = more faithful to input image
-   - Lower strength (0.5-0.7) = more creative freedom and motion
-   - Avoid heavily compressed or low-resolution images
-
-5. **Advanced Parameters**
-   - **Guidance Scale**: 3-7 recommended (higher = more prompt adherence)
-   - **Inference Steps**: 30-50 for best quality-speed balance
-   - **Frame Rate**: Keep at 30 FPS for smooth motion
-   - **Negative Prompt**: Use to avoid specific unwanted elements
-
-### Common Issues & Solutions
-
-| Problem | Solution |
-|---------|----------|
-| "ZeroGPU timeout error" | Enable Smart Configuration and reduce target duration |
-| Video is too slow-motion | Uncheck "Slow Motion" checkbox |
-| Video is blurry/low quality | Increase inference steps to 40-50, or reduce frame count |
-| Not following prompt closely | Increase guidance scale to 6-7 |
-| Motion is too rigid/artificial | Decrease guidance scale to 3-4 |
-| Subject doesn't move enough | Lower conditioning strength (I2V), be more explicit in prompt about motion |
-| Too much camera shake | Add "stable camera" or "steady shot" to prompt |
+**Prompt**: `The cats from the picture are boxing each other agresivelly`  
+**Seed**: `738317591`  
+**Type**: Image-to-Video  
+**Conditioning**: Full image conditioning
 
 ---
 
-## 🛠️ Installation & Local Usage
+#### 3. 3D Lion Transformation
+<div align="center">
+<img src="ItV/3858595085_take-the-lion-from-the-drawing-and-remove-the-background-turns-the-lion-into-a-3d-model.jpg" width="600"/>
+</div>
 
-### Prerequisites
+**Prompt**: `take the lion from the drawing and remove the background. turns the lion into a 3d model`  
+**Seed**: `3858595085`  
+**Type**: Image-to-Video  
+**Note**: 2D to 3D transformation
 
-- Python 3.10+
-- CUDA-capable GPU with 24GB+ VRAM (for local use with full quality)
-- 50GB+ free disk space (for model downloads)
+---
 
-### Setup
+#### 4. Skater Fall
+<div align="center">
+<img src="ItV/4273030543_make-the-skater-in-the-image-suffer-a-fall.jpg" width="600"/>
+</div>
+
+**Prompt**: `Make the skater in the image suffer a fall`  
+**Seed**: `4273030543`  
+**Type**: Image-to-Video  
+**Action**: Dynamic motion from static photo
+
+---
+
+#### 5. Cool Monkey with Sunglasses
+<div align="center">
+<img src="ItV/1747446564_the-monkey-takes-a-cool-look-and-then-puts-on-sunglasses.jpg" width="600"/>
+</div>
+
+**Prompt**: `The monkey takes a cool look and then puts on sunglasses`  
+**Seed**: `1747446564`  
+**Type**: Image-to-Video  
+**Action**: Object interaction animation
+
+---
+
+## 🚀 Quick Start
+
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized.git
-cd LTX-FastVideo-ZeroGPU_Optimized
+git clone https://github.com/YOUR_USERNAME/deeprat-ltx-video.git
+cd deeprat-ltx-video
 
 # Create virtual environment
 python -m venv venv
@@ -292,136 +141,196 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Running Locally
+### Basic Usage
 
+#### Text-to-Video
 ```bash
-# Launch Gradio interface
-python app.py
-
-# Or use the CLI inference script
 python inference.py \
-  --prompt "A beautiful sunset over the ocean with gentle waves" \
-  --num_frames 121 \
+  --prompt "A beautiful sunset over the ocean" \
   --height 704 \
   --width 1216 \
+  --num_frames 121 \
   --seed 42
 ```
 
-### Command-Line Arguments
-
+#### Image-to-Video
 ```bash
-python inference.py --help
+python inference.py \
+  --prompt "The person in the image starts walking" \
+  --conditioning_media_paths path/to/image.jpg \
+  --conditioning_strengths 0.8 \
+  --conditioning_start_frames 0 \
+  --height 704 \
+  --width 1216 \
+  --num_frames 121 \
+  --seed 42
 ```
 
-Key arguments:
-- `--prompt`: Text description for video generation
-- `--input_media_path`: Path to input image/video (for I2V/V2V)
-- `--height`, `--width`: Output resolution (auto-adjusted to multiples of 32)
-- `--num_frames`: Number of frames (auto-adjusted to 8n+1 formula)
-- `--frame_rate`: Output FPS (default: 30)
-- `--seed`: Random seed for reproducibility
-- `--pipeline_config`: YAML config file path
+---
+
+## 🎛️ Parameters Guide
+
+| Parameter | Description | Default | Range |
+|-----------|-------------|---------|-------|
+| `--height` | Output video height | 704 | 256-720 |
+| `--width` | Output video width | 1216 | 256-1280 |
+| `--num_frames` | Number of frames | 121 | 1-257 |
+| `--frame_rate` | FPS of output | 30 | 1-60 |
+| `--seed` | Random seed | 171198 | Any integer |
+| `--guidance_scale` | Prompt adherence | 3.0 | 1.0-20.0 |
+| `--num_inference_steps` | Quality steps | 50 | 1-100 |
+
+### Conditioning Parameters
+
+- `--conditioning_media_paths`: Path(s) to conditioning images/videos
+- `--conditioning_strengths`: Strength of each condition (0.0-1.0)
+- `--conditioning_start_frames`: Frame index where condition starts
+
+---
+
+## 📊 Technical Details
+
+### Model Architecture
+- **Base Model**: LTX Video (Lightricks)
+- **Precision**: Mixed (BF16/FP32)
+- **VAE**: Causal Video Autoencoder
+- **Transformer**: 3D Transformer with symmetric patchifier
+- **Scheduler**: Rectified Flow
+
+### System Requirements
+- **GPU**: NVIDIA GPU with 16GB+ VRAM (recommended)
+- **RAM**: 32GB+ recommended
+- **Storage**: 50GB+ for models
+- **Python**: 3.10+
+
+### Supported Resolutions
+- **Width**: 256px - 1280px (divisible by 32)
+- **Height**: 256px - 720px (divisible by 32)
+- **Frames**: 1 - 257 (formula: N * 8 + 1)
+
+---
+
+## 💡 Tips for Best Results
+
+### Text-to-Video
+- ✅ Be specific about motion, lighting, and camera movement
+- ✅ Use descriptive language: "slowly", "dramatic", "cinematic"
+- ✅ Start with lower resolutions for faster iteration
+- ❌ Avoid overly complex or contradictory prompts
+
+### Image-to-Video
+- ✅ Use conditioning strength 0.7-0.9 for natural motion
+- ✅ Clear, high-quality input images work best
+- ✅ Describe the desired motion explicitly
+- ❌ Don't use very low conditioning strength (<0.5)
+
+### General Tips
+- 🎯 Use negative prompts to avoid unwanted elements
+- 🎯 Adjust guidance scale: lower (2-4) for creativity, higher (5-8) for accuracy
+- 🎯 More inference steps = better quality but slower
+- 🎯 Use consistent seeds to reproduce results
+
+---
+
+## 🔧 Advanced Configuration
+
+### Config Files
+The pipeline uses YAML configuration files located in `configs/`:
+
+```yaml
+# Example config
+checkpoint_path: "ltxv-13b-0.9.7-dev.safetensors"
+precision: "bfloat16"
+sampler: "LinearQuadratic"
+guidance_scale: 3.0
+num_inference_steps: 50
+```
+
+### Custom Models
+Place custom models in the `MODEL_DIR` and update config accordingly.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-LTX-FastVideo-ZeroGPU_Optimized/
-├── app.py                          # Main Gradio application
-├── inference.py                    # CLI inference script
-├── requirements.txt                # Python dependencies
-├── README.md                       # This file
-├── LICENSE                         # Apache 2.0 License
-├── configs/                        # Model configuration files
-│   └── ltxv-13b-0.9.8-distilled.yaml
-├── ltx_video/                      # Core model code
+deeprat-ltx-video/
+├── inference.py              # Main inference script
+├── app.py                    # Gradio web interface
+├── configs/                  # Configuration files
+│   └── ltxv-13b-0.9.7-dev.yaml
+├── ltx_video/               # Core LTX Video modules
 │   ├── models/
-│   │   ├── autoencoders/
-│   │   └── transformers/
 │   ├── pipelines/
-│   ├── schedulers/
-│   └── utils/
-└──examples/                       # Example inputs/outputs
-    ├── ItV/                        # Image-to-Video examples
-    │   ├── *.mp4                   # Output videos
-    │   ├── *.png/*.jpeg/*.webp     # Input images
-    │   └── seeds-prompts.txt       # Prompts used
-    └── PtV/                        # Prompt-to-Video examples
-        ├── *.mp4                   # Output videos
-        └── seeds-prompts.txt       # Prompts used
-
-
----
-
-
-
-### This Implementation
-- **Developer**: Gonzalo Romero (DeepRat)
-- **Optimizations**: ZeroGPU calibration, UI redesign, slow motion control
-- **Repository**: [GitHub](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized)
-- **Space**: [Hugging Face](https://huggingface.co/spaces/DeepRatAI/ltx-video-zerogpu-optimized)
-
-### Technologies Used
-- [Gradio](https://gradio.app/) - Web interface framework
-- [PyTorch](https://pytorch.org/) - Deep learning backend
-- [Diffusers](https://github.com/huggingface/diffusers) - Pipeline management
-- [Hugging Face](https://huggingface.co/) - Model hosting & ZeroGPU infrastructure
-- [Transformers](https://github.com/huggingface/transformers) - T5 text encoder
-
----
-
-## 📄 License
-
-This project is licensed under the **Apache 2.0 License** - see the [LICENSE](LICENSE) file for details.
-
-The LTX Video model itself is subject to the [Lightricks LTX-Video License](https://huggingface.co/Lightricks/LTX-Video/blob/main/LICENSE).
+│   └── schedulers/
+├── Assets/                  # Example outputs
+│   ├── PtV/                # Picture-to-Video examples
+│   └── ItV/                # Image-to-Video examples
+└── requirements.txt         # Python dependencies
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Areas for Contribution
-- Additional video examples with diverse prompts
-- Performance optimizations for faster generation
-- UI/UX improvements and accessibility features
-- Documentation enhancements and translations
-- Bug fixes and error handling improvements
-- Additional calibration presets for different use cases
-
-### How to Contribute
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📧 Contact
-
-- **GitHub**: [@DeepRatAI](https://github.com/DeepRatAI)
-- **Hugging Face**: [@DeepRatAI](https://huggingface.co/DeepRatAI)
-- **Issues**: [GitHub Issues](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/issues)
 
 ---
 
-## ⭐ Star History
+## 🙏 Credits & Acknowledgments
 
-If this project helped you, consider giving it a ⭐ on GitHub!
+- **LTX Video**: [Lightricks](https://github.com/Lightricks/LTX-Video)
+- **Model**: [Lightricks/LTX-Video](https://huggingface.co/Lightricks/LTX-Video)
+- **Paper**: [LTX-Video: Realtime Video Latent Diffusion](https://arxiv.org/abs/2411.17465)
+- **Interface**: Built with Gradio
+- **Community**: DeepRat AI Community
 
-[![Star History Chart](https://api.star-history.com/svg?repos=DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized&type=Date)](https://star-history.com/#DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized&Date)
+---
+
+## 🔗 Links
+
+- 🌐 [Hugging Face Space](https://huggingface.co/spaces/YOUR_USERNAME/deeprat-ltx-video)
+- 📦 [Model Card](https://huggingface.co/Lightricks/LTX-Video)
+- 📖 [Original Repository](https://github.com/Lightricks/LTX-Video)
+
+
+---
+
+## 🐛 Known Issues & Limitations
+
+- Very high resolutions (>1280x720) require significant VRAM
+- CPU inference is extremely slow (GPU strongly recommended)
+- Long prompts (>77 tokens) may be truncated
+- Some complex motions may not be fully captured
+
+---
+
+## 📮 Contact
+
+For questions, suggestions, or collaborations:
+
+- GitHub Issues: [Create an issue](https://github.com/YOUR_USERNAME/deeprat-ltx-video/issues)
+- Email: your.email@example.com
+- Twitter: [@YourHandle](https://twitter.com/YourHandle)
 
 ---
 
 <div align="center">
 
-### Made with ❤️ by DeepRat AI
+**Made with ❤️ by the DeepRat Community**
 
-**Empowering creators with optimized and FREE AI video generation**
+⭐ Star us on GitHub — it helps!
 
+[⬆ Back to Top](#-deeprat-ltx-video---ai-video-generation)
+
+</div>
 [🚀 Try the Space](https://huggingface.co/spaces/DeepRatAI/ltx-video-zerogpu-optimized) • [📖 Documentation](docs/) • [🐛 Report Bug](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/issues) • [✨ Request Feature](https://github.com/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized/issues)
 
 </div>
