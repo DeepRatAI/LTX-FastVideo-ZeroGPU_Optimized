@@ -5,6 +5,10 @@
 ![DeepRat Banner](https://img.shields.io/badge/DeepRat-LTX%20Video-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge)
+![Release](https://img.shields.io/github/v/release/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/DeepRatAI/LTX-FastVideo-ZeroGPU_Optimized?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
 
 **Advanced AI-powered video generation using LTX Video model**
 
